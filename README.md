@@ -12,7 +12,7 @@ This project is a simple Notes App built using Express.js as the backend and Rea
 ## Tech Stack
 - **Backend**: Express.js, Prisma ORM, Node.js
 - **Frontend**: React.js, HTML, CSS
-- **Database**: postgreSQL
+- **Database**: postgreSQL - a single table with "id", "title" and "content" columns
 
 ## Installation
 
@@ -20,6 +20,7 @@ This project is a simple Notes App built using Express.js as the backend and Rea
 - Node.js
 - npm or Yarn
 - Git (for cloning the repository)
+- .env file to be placed at the root of the server folder with database credentials eg. DATABASE_URL="your_database_connection_string"
 
 ### Steps
 
